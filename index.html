@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+    <!-------------------------NAVBAR--------------------------->
+    <div class="fixed-top">
+    <div class="container text-center">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carreras</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </div>
+      <!-------------------PRIMERA FILA------------------>
+      <div class="container text-center" id="container1">
+        <div class="row">
+          <div class="col" >
+            <p id="p1">Soy Alex,entusiasta de la Mountain Bike,en esta página encontraras un poco sobre mi, <br>mis rutas,mis viajes y muchas mas cosas relacionadas sobre el mundo de la MTB,tambien <br> algunas fotos de biciletas de carretera,amigos,aventuras y mucho mas.....me acompañas?</p>
+          </div>
+          <div class="col" id="fila2">
+            <img src="andorra.png" alt="vr" srcset="" id="foto-salto">
+          </div>
+        </div></div><br><br>
+<hr><br><br>
+        <!----------------SEGUNDA FILA--------------------->
+        <!--------------------SLIDER----------------------->
+        <div class="container text-center" id="container2">
+          <div class="row">
+            <div class="col" id="slider">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="nieve.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="nieve2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="sport-3730211_640.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!----------------------------TEXTO SEGUNDA FILA-------------------------->
+            <div class="col" id="fila2">
+              Viajes por la nieve <br>
+              infinidad de caminos y rutas por descubrir 
+              a lo largo y ancho de la geografia española y parte del extranjero en una 
+              aventura que te dejara sin palabras......
+            </div>
+          </div></div><br><br>
+            <hr>
+          <!--------------------NOTICIAS(FILA3)---------------------->
+          <section id="section-noticias">
+         <div class="container text-center"><br>
+          <h2 id="noticias-carreras">NOTICIAS SOBRE CARRERAS MTB</h2><br><br>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   Madrid-Lisboa MTB Non-Stop
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>La prueba de bicicleta de montaña Non Stop Madrid Lisboa, abierta a todo tipo de aventureros de la especialidad, se disputará del 2 al 4 de julio con salida en Villanueva del Pardillo y llegada en Alenquer</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Titan Desert Almeria
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <P>Almería centra el protagonismo deportivo con el arranque de la ŠKODA Titan Series Almería. La prueba de Mountain Bike ha aterrizado su primera edición.</P>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Campeonato de España XCUM La Iruela(Cazorla)
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>La Ultramaratón la Iruela  cuenta con un recorrido íntegro en el Parque Natural de Cazorla, Segura y las Villas, un entorno natural de alto valor ecológico, paisajístico y cultural. Gran parte del recorrido usa el GR-247 o Sendero Bosques del Sur.
+                    El recorrido es en su mayoría pista forestal a la que se suman senderos, y menos de un 4% de asfalto. La suma de kilómetros, desnivel y senderos hacen una prueba dura y para auténticos mountainbikers.
+                    Es parte de la Copa de España de Ultramaratón MTB 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <br><br></section><br>
+        <hr>
+<br><br>
+<!-------------------------------FOTOS DE LAS NOTCIAS---------------------------------->
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+              <!------------------------TARJETA1--------------->
+      <div class="card" style="width: 18rem;">
+        <img src="card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">La Iruela</h5>
+          <p class="card-text">Descenso vertiginoso en La iruela(Cazorla)</p>
+          <a href="#" class="btn btn-primary">Ir a noticia</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+                  <!--------------------TARJETA2------------------------>
+      <div class="card" style="width: 18rem;">
+        <img src="card2jpg.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Titan Desert</h5>
+          <p class="card-text">Costa de Almeria en la Titan Desert</p>
+          <a href="#" class="btn btn-primary">Ir a noticia</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+                     <!----------------------TARJETA3---------------------->
+      <div class="card" style="width: 18rem;">
+        <img src="card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Campeonato España XCUM</h5>
+          <p class="card-text">Campeonato España XCUM ultramaraton 150 km</p>
+          <a href="#" class="btn btn-primary">Ir a noticia</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

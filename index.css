@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Climate Crisis', cursive;
+    font-size: x-large;
+}
+/*-----------------NAV-----------------------*/
+nav :hover{
+    color: rgb(122, 122, 222);
+}
+
+/*-----------------FILA 1------------------*/
+#container1{
+    background-color: rgb(255, 255, 255); 
+    margin-top: 70px;
+    border-radius: 8%;
+    margin-bottom: 10px;
+    
+}
+#fila2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+}
+#foto-salto{
+    height: 350px;
+    border-radius: 180%;
+}
+#p1{
+    margin-top: 30%;
+    color: rgb(11, 19, 25);
+    font-size: x-large;
+    margin-bottom: 20%;
+}
+
+/*-------------------------FILA2----------------------*/
+
+#container2{
+    background-color: rgb(232, 241, 249);
+    
+}
+
+/*------------------------FILA3(NOTICIAS)-------------------------*/
+#section-noticias{
+    background-color: rgb(88, 111, 111);
+   margin-left: 4%;
+   margin-right: 4%;
+}
+#noticias-carreras{
+    color: rgb(223, 233, 233);
+}
+
